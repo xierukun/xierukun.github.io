@@ -1248,6 +1248,12 @@ pre code {
     height: var(--scroll-height);
   }
 }
+@media (max-width: 767px) {
+  .site-nav-right {
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+}
 .menu {
   margin: 0;
   padding: 1em 0;
